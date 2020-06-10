@@ -69,7 +69,7 @@ function Total(props) {
   )
 }
 
-// ------------------------------------------------------------------------
+
 
 export default function App() {
   const [products, setProducts] = useState(
@@ -115,7 +115,7 @@ export default function App() {
     setProducts(
       products.map((product, i) => {
         if (i == index) {
-          product.qty -= 1
+          product.qty = product.qty ? product.qty - 1 : product.qty
           return product
         }
         else return product

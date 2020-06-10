@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "first-react-native",
-    "slug": "first-react-native",
+    "name": "Product Shop",
+    "slug": "product-shop",
     "platforms": [
       "ios",
       "android",
@@ -23,6 +23,12 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.uii.productshop",
+      "versionCode": 1
+    },
+    "description": "This is Albarra's First React Native App",
+    "githubUrl": "https://github.com/albarranaufala/product-shop-react-native"
   }
 }
